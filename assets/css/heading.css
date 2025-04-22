@@ -1,0 +1,125 @@
+/* Universal heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    color: #1a1a1a;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* Heading level styles */
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid #007BFF;
+    padding-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    border-left: 4px solid #333;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    border-left: 3px solid #6c757d;
+    padding-left: 0.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+.btn-radio {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.btn-radio::before {
+    content: "";
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid #0f0f0f;
+    background-color: #fff;
+}
+
+.btn-check:checked+.btn-radio::before {
+    background-color: #0d6efd;
+    box-shadow: inset 0 0 0 4px #fff;
+    border-color: #0d6efd;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+.form-nav {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.btn-checkbox {
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.btn-check:checked+.btn-checkbox {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.google-form-container h2,
+.google-form-container h4 {
+    color: #004080;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.google-form-container ol li {
+    margin-bottom: 10px;
+}
+
+.google-form-container ul li {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.card {
+    border: 0px;
+   
+}
